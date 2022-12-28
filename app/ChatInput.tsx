@@ -32,8 +32,8 @@ const ChatInput = ({ session }: Props) => {
             id,
             message: messageToSend,
             created_at: Date.now(),
-            username:session?.user?.name!,
-            email:session?.user?.email!
+            username:'Muhammad Hamza',
+            email:'muhammadhamza14210@gmail.com'
         }
 
         const uploadMessageToUpstash = async () => {
